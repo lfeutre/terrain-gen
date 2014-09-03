@@ -1,6 +1,6 @@
 # terrain-gen
 
-**Simple Terrain-Generation in Erlang **
+**Simple Terrain-Generation in Erlang**
 
 ## Introduction
 
