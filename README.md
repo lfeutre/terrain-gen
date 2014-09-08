@@ -5,7 +5,7 @@
 
 ## Introduction
 
-terrain-gen is essential a convenience wrapper around the LFE noise-generation
+terrain-gen is essentially a convenience wrapper around the LFE noise-generation
 library, [loise](https://github.com/lfex/loise). It provides lots of default
 values so you don't have to go messing in the guts of loise :-)
 
@@ -19,7 +19,8 @@ Just add it to your ``rebar.config`` deps:
 ```erlang
     {deps, [
         ...
-        {terrain-gen, ".*", {git, "git@github.com:YOURNAME/terrain-gen.git", "master"}}
+        {terrain-gen, ".*",
+          {git, "git@github.com:lfex/terrain-gen.git", "master"}}
       ]}.
 ```
 
